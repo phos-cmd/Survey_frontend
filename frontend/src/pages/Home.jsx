@@ -38,7 +38,7 @@ export default function Home() {
         <div className="empty-state">
           <div className="empty-state-icon">📋</div>
           <h3>Опросы пока не добавлены</h3>
-          <p>Загляните позже или создайте опрос через <a href="/admin">панель администратора</a></p>
+          <p>Загляните позже</p>
         </div>
       ) : (
         <div className="card-grid">
