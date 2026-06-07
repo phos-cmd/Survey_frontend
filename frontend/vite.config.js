@@ -11,12 +11,5 @@ export default defineConfig({
         changeOrigin: true,
       }
     }
-  },
-  build: {
-    // Build output to Django static files directory
-    outDir: '../staticfiles/frontend',
-    emptyOutDir: true,
-    // Assets are served from /static/ in Django
-    base: '/static/',
   }
 })
